@@ -2,9 +2,9 @@ import { nanoid } from "nanoid";
 import { FaHtml5, FaJs, FaReact } from "react-icons/fa";
 import type { Link, Project, Skill } from "./types/data";
 
-import PixelFlow from "./src/assets/projects-img/PixelFlow.png";
-import CartApp from "./src/assets/projects-img/Cart-App.png";
-import DynamicNavbar from "./src/assets/projects-img/Dynamic-Navbar.png";
+import PixelFlow from "./assets/projects-img/Pixel-flow.png";
+import CartApp from "./assets/projects-img/Cart-App.png";
+import DynamicNavbar from "./assets/projects-img/Dynamic-Navbar.png";
 
 export const links: Link[] = [
   { id: nanoid(), href: "#home", text: "home" },
