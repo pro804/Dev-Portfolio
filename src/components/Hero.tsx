@@ -4,20 +4,20 @@ import { motion } from "motion/react";
 const Hero = () => {
   return (
     <div className="bg-emerald-100 py-24">
-      <div className="mx-auto max-w-7xl px-8 grid md:grid-cols-2 items-center gap-8">
+      <div className="align-element grid md:grid-cols-2 items-center gap-8">
         <article>
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-6xl sm:text-7xl font-extrabold tracking-tight leading-tight"
+            className="text-4xl sm:text-5xl font-extrabold tracking-tight leading-tight"
           >
             I'm
             <br />
             <span className="text-emerald-600">Georgios</span> Petsoulis
           </motion.h1>
 
-          <p className="mt-6 text-2xl text-slate-700 font-semibold">
+          <p className="mt-6 text-2xl sm:text-3xl text-slate-700 font-semibold">
             Front-end Developer
           </p>
 

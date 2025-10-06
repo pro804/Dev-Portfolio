@@ -1,5 +1,7 @@
 import { nanoid } from "nanoid";
-import { FaHtml5, FaJs, FaReact } from "react-icons/fa";
+import { FaHtml5, FaJs, FaReact, FaGitAlt } from "react-icons/fa";
+import { SiTypescript } from "react-icons/si";
+import { TbApi, TbDeviceMobile } from "react-icons/tb";
 import type { Link, Project, Skill } from "./types/data";
 
 import PixelFlow from "./assets/projects-img/Pixel-flow.png";
@@ -16,21 +18,51 @@ export const links: Link[] = [
 export const skills: Skill[] = [
   {
     id: nanoid(),
-    title: "HTML&CSS",
+    title: "HTML & CSS",
     icon: <FaHtml5 className="h-16 w-16 text-emerald-500" />,
-    text: "Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.",
+    text: "Skilled in writing semantic HTML and modern CSS to build responsive, accessible, and visually appealing layouts for all device sizes.",
   },
   {
     id: nanoid(),
-    title: "Javascript",
+    title: "JavaScript",
     icon: <FaJs className="h-16 w-16 text-emerald-500" />,
-    text: "Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality",
+    text: "Proficient in vanilla JavaScript to create dynamic and interactive user experiences, with a solid understanding of ES6+ features.",
   },
   {
     id: nanoid(),
     title: "React",
     icon: <FaReact className="h-16 w-16 text-emerald-500" />,
-    text: "Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
+    text: "Building component-based user interfaces. Experienced with core concepts like hooks, state, and props to create maintainable front-end applications.",
+  },
+  {
+    id: nanoid(),
+    title: "React Native",
+    icon: <TbDeviceMobile className="h-16 w-16 text-emerald-500" />, // You'll need to import FaMobile
+    text: "Completed Meta's React Native Specialization, with foundational knowledge in building cross-platform mobile applications using React Native and Expo.",
+  },
+  {
+    id: nanoid(),
+    title: "TypeScript",
+    icon: <SiTypescript className="h-16 w-16 text-emerald-500" />,
+    text: "Using TypeScript in projects to write more robust and self-documenting code, reducing errors and improving the development experience.",
+  },
+  {
+    id: nanoid(),
+    title: "State Management",
+    icon: <FaReact className="h-16 w-16 text-emerald-500" />, // Or a custom icon
+    text: "Experience managing complex state logic using React's useReducer hook and sharing state globally with the Context API.",
+  },
+  {
+    id: nanoid(),
+    title: "API Integration",
+    icon: <TbApi className="h-16 w-16 text-emerald-500" />,
+    text: "Comfortable fetching and handling data from both REST and third-party APIs to display dynamic content in applications.",
+  },
+  {
+    id: nanoid(),
+    title: "Tooling & Git",
+    icon: <FaGitAlt className="h-16 w-16 text-emerald-500" />,
+    text: "Proficient with modern build tools like Vite and using Git for version control to track projects and collaborate effectively.",
   },
 ];
 
