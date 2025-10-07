@@ -13,7 +13,7 @@ export interface Skill {
   text: string;
 }
 
-export interface Project {
+export interface Projects {
   id: string;
   img: string;
   url: string;

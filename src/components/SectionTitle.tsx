@@ -1,7 +1,7 @@
-interface SectionTilteProps {
+interface SectionTitleProps {
   text: string;
 }
-const SectionTilte: React.FC<SectionTilteProps> = ({ text }) => {
+const SectionTitle: React.FC<SectionTitleProps> = ({ text }) => {
   return (
     <div
       className="border-b border-gray-200 
@@ -12,4 +12,4 @@ const SectionTilte: React.FC<SectionTilteProps> = ({ text }) => {
   );
 };
 
-export default SectionTilte;
+export default SectionTitle;

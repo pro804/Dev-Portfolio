@@ -1,5 +1,5 @@
 import aboutSvg from "../assets/about.svg";
-import SectionTilte from "./SectionTilte";
+import SectionTitle from "./SectionTitle";
 
 const About = () => {
   return (
@@ -11,7 +11,7 @@ const About = () => {
           className="w-full h-64 hover:scale-105 transition-transform duration-300"
         />
         <article>
-          <SectionTilte text="about me" />
+          <SectionTitle text="about me" />
           <p className="text-slate-600 mt-8 leading-loose">
             I'm a front-end developer with a background in industrial design
             engineering.I love transforming complex ideas into intuitive,

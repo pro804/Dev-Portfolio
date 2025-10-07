@@ -2,7 +2,7 @@ import { nanoid } from "nanoid";
 import { FaHtml5, FaJs, FaReact, FaGitAlt } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
 import { TbApi, TbDeviceMobile } from "react-icons/tb";
-import type { Link, Project, Skill } from "./types/data";
+import type { Link, Skill, Projects } from "./types/data";
 
 import PixelFlow from "./assets/projects-img/Pixel-flow.png";
 import CartApp from "./assets/projects-img/Cart-App.png";
@@ -66,7 +66,7 @@ export const skills: Skill[] = [
   },
 ];
 
-export const projects: Project[] = [
+export const projects: Projects[] = [
   {
     id: nanoid(),
     img: PixelFlow,
