@@ -24,7 +24,12 @@ const ProjectsCard: React.FC<ProjectCardProps> = ({
     hover:shadow-xl duration-300"
       >
         <div className="aspect-video overflow-hidden rounded-t-lg ">
-          <img src={img} alt={title} className="w-full h-full object-cover " />
+          <img
+            src={img}
+            alt={title}
+            className="w-full h-full object-cover "
+            loading="lazy"
+          />
         </div>
         <div className=" p-8">
           <h2 className="text-xl font-medium tracking-wide ">{title}</h2>
