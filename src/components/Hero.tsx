@@ -4,7 +4,10 @@ import { motion } from "motion/react";
 
 const Hero = () => {
   return (
-    <div className="bg-gradient-to-br from-emerald-50 to-green-100 py-12 lg:py-28">
+    <div
+      className="bg-gradient-to-br from-emerald-50 to-green-100 py-12 lg:py-28"
+      id="home"
+    >
       <div className="align-element grid lg:grid-cols-2 items-center gap-8 lg:gap-16">
         {/* Text Content */}
         <motion.article
