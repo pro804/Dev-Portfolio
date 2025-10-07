@@ -36,10 +36,10 @@ const ProjectsCard: React.FC<ProjectCardProps> = ({
           <p className="mt-4 text-slate-700 leading-loose">{text}</p>
           <div className="mt-4  flex gap-x-4">
             <a href={url} target="_blank" rel="noreferrer">
-              <TbWorldWww className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
+              <TbWorldWww className="h-8 w-8 text-slate-500 hover:text-emerald-600 duration-300" />
             </a>
             <a href={github} target="_blank" rel="noreferrer">
-              <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
+              <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-emerald-600 duration-300" />
             </a>
           </div>
         </div>
